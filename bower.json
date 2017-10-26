@@ -1,0 +1,24 @@
+{
+  "name": "purescript-linear",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "dist"
+  ],
+  "dependencies": {
+      "purescript-generics": "^4.0.0"
+      , "purescript-profunctor-lenses": "^3.7.0"
+      , "purescript-maps": "^3.5.0"
+      , "purescript-quickcheck": "^4.0.0"
+      , "purescript-foldable-traversable": "^3.3.1"
+      , "purescript-monad-zip": "https://github.com/AidanDelaney/purescript-monad-zip.git#^0.1.1"
+      , "purescript-monad-fix": "https://github.com/AidanDelaney/purescript-monad-fix.git"
+      , "purescript-numerics": "https://github.com/AidanDelaney/purescript-numerics.git#^0.1.4"
+  },
+  "authors": [
+      {"name": "Aidan Delaney", "email" : "aidan@ontologyengineering.org"}
+  ]
+  , "license" : "BSD-3-Clause"
+}
